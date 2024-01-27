@@ -1,0 +1,46 @@
+footer {
+
+    background-color: $white;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .infos{
+        display: grid;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+    .infos-container {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        border: 1px solid $color2;
+    }
+    .infos-container-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .infos-container-title h3{
+        font-family: "inter-extrabold";
+        text-transform: uppercase;
+        color: $color3;
+        font-size: 0.8rem;
+    }
+    .infos-container-description{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .infos-container-description p{
+        font-family: "inter-extrabold";
+        text-transform: capitalize;
+        color: $color3;
+        font-size: 0.5rem;
+    }
+.infos-container-description-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.infos-container-description-social ul {
+    display: flex;
+}

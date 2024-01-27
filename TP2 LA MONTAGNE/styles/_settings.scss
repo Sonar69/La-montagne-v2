@@ -1,0 +1,63 @@
+@font-face {
+	font-family: "inter-extrabold";
+	src: url(../font/inter/static/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+	font-family: "merriweather-light";
+	src: url(../font/merriweather/Merriweather-Light.ttf);
+}
+
+// couleur 
+$color1: rgb(145, 0, 0);
+$color2: rgba(139, 139, 139, 0.235);
+$color3: rgba(96, 96, 96, 0.987);
+$black: rgb(44, 44, 44);
+$white: rgb(232, 232, 232);
+
+@mixin centerChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+background: url(../images/bg.jpg) fixed center/cover;
+margin: 15% 10%;
+text-align: center;
+// max-width: 1200px;
+}
+h1 {
+	font-family: "inter-extrabold";
+	text-transform: uppercase;           
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	font-size: 2.5rem;
+}
+h2 {
+	font-family: "inter-extrabold";
+	text-transform: uppercase;
+	font-size: 2rem;
+	word-spacing: 7px;
+	margin: 15px;
+}
+h3 {
+	font-family: "merriweather-light";
+	text-transform: capitalize;
+	font-weight: 200;
+	margin: 15px;
+}
+p {
+	font-family: "merriweather-light";
+	font-style: italic;
+	font-size: 0.5rem;
+	line-height: 30px;
+	margin: 15px;
+}
